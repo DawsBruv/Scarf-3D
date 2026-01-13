@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: spawner joueur
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":139.1773,"y":1.554031},"zoom":0.65,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-457.0,"y":-145.0},"guid":"1cbb2f15-7f4c-4d9a-874b-0f20df52bc8f","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"chainable":false,"parameterNames":["original","position","rotation"],"member":{"name":"Instantiate","parameterTypes":["UnityEngine.Object","UnityEngine.Vector3","UnityEngine.Quaternion"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%original":{"$content":0,"$type":"UnityEngine.Object"},"%position":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":101.0,"y":-150.0},"guid":"9acff33c-8c88-46f0-a25a-c17528262ef6","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"member":{"name":"identity","parameterTypes":null,"targetType":"UnityEngine.Quaternion","targetTypeName":"UnityEngine.Quaternion","$version":"A"},"defaultValues":{},"position":{"x":-120.0,"y":150.0},"guid":"c00bf200-bebd-4cba-ab10-da2744a5fe9e","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"15"},{"type":"UnityEngine.GameObject","value":{"$content":1,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-154.0,"y":-56.0},"guid":"7cec75c2-4448-47b0-a49c-bcffc60c571a","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"18"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-206.0,"y":44.0},"guid":"3e100096-5286-426c-bf4d-a71c0d6286eb","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"20"},{"type":"UnityEngine.GameObject","value":{"$content":2,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-426.0,"y":120.0},"guid":"9758af6d-ffb0-49f1-808b-6ceaa64ba429","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"23"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"00f37367-e89b-4a43-8c20-dc440baae993","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"%rotation","guid":"0ec393e4-2cbb-4fb0-bad3-e52da67e8cb7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"%original","guid":"9c916b8c-f7a6-4c65-8a3a-75f28cd260b7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"output","destinationUnit":{"$ref":"20"},"destinationKey":"target","guid":"c576e037-c83f-48dd-8b8a-4ba3c82d0a4e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"%position","guid":"24d000d3-467c-4dbf-aefa-effae81c64fb","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-487.0,"yMin":-240.0,"xMax":800.0,"yMax":241.0},"label":"Spawn
+      joueur","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"e679b117-2869-49d4-b28c-c00d4797327e","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 928618271281774354, guid: 4ce15b06a6028e741a78ab5c5a9a1845, type: 3}
+    - {fileID: 928618271281774354, guid: 4ce15b06a6028e741a78ab5c5a9a1845, type: 3}
+    - {fileID: 3849758542217440854, guid: aff50b23c7ebf8f4cb7ff444c9a3104b, type: 3}
