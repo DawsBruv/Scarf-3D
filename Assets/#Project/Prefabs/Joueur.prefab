@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8379266395099916761}
   - component: {fileID: -4149901982213516973}
   - component: {fileID: -4530513841826985334}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Joueur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,6 +59,8 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Flingues","value":{"$content":[0,1],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Vie
+      joueur","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2787029577824606362}
@@ -208,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4278956869331328346}
   - component: {fileID: 1080252413657568209}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flingue gauche
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -257,7 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6324491694973645580}
   - component: {fileID: 976679288083773468}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5237416642506297901}
   - component: {fileID: 3907136962686768810}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flingue droite
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
