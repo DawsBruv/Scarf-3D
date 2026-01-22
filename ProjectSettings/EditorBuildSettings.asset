@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu principal.unity
+    guid: b5ab510a1e2e1e94baf9b7a373493c80
+  - enabled: 1
+    path: Assets/Scenes/Anti-Lieu.unity
+    guid: ef332ebe1caae0c40ab113c5cc762f16
+  - enabled: 1
     path: Assets/Scenes/Shoot'em up.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
